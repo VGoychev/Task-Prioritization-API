@@ -48,7 +48,7 @@ The **Task Prioritization API** is a RESTful service that enables users to creat
 ## Technologies Used
 - **Spring Boot** - Java-based framework for building REST APIs.
 - **Spring Data JPA** - Simplifies database interactions.
-- **H2 / PostgreSQL** - Database for storing tasks.
+- **H2 / MySQL** - Database for storing tasks.
 - **Lombok** - Reduces boilerplate code.
 - **ModelMapper** - Facilitates object mapping.
 
@@ -59,7 +59,7 @@ The **Task Prioritization API** is a RESTful service that enables users to creat
 ### Prerequisites
 - Java **11+**
 - Maven
-- PostgreSQL (if using a persistent database)
+- MySQL (if using a persistent database)
 
 ### Steps to Run
 1. Clone the repository:  
